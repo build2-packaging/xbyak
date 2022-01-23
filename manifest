@@ -1,0 +1,9 @@
+: 1
+name: xbyak
+version: 5.95.0-a.0.z
+summary: a JIT assembler for x86(IA-32)/x64(AMD64, x86-64) MMX/SSE/SSE2/SSE3/SSSE3/SSE4/FPU/AVX/AVX2/AVX-512 by C++
+license: BSD-3-Clause
+description-file: upstream/readme.md
+url: https://github.com/herumi/xbyak
+depends: * build2 >= 0.14.0
+depends: * bpkg >= 0.14.0

@@ -1,0 +1,6 @@
+$out_root/
+{
+  include xbyak/
+}
+
+export $out_root/xbyak/$import.target

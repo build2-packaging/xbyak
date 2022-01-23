@@ -1,0 +1,5 @@
+import libs = xbyak%lib{xbyak}
+
+cxx.poptions = "-I$src_base/test"
+
+exe{driver}: test/cybozu/hxx{*} test/cxx{jmp} $libs

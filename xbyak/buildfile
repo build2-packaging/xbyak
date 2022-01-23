@@ -1,0 +1,10 @@
+lib{xbyak}: xbyak/hxx{*}
+{
+    cxx.export.poptions = "-I$src_base"
+}
+
+xbyak/hxx{*}:
+{
+    install = include/xbyak/
+    install.subdirs = false
+}
